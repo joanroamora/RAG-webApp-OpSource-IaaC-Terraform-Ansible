@@ -1,6 +1,6 @@
 variable "region" {
   description = "La región donde se creará la infraestructura."
-  default     = "us-west-2"
+  default     = "us-east-1"
 }
 
 variable "vpc_cidr" {
