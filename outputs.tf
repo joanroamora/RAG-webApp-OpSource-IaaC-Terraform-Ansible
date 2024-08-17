@@ -17,3 +17,8 @@ output "internet_gateway_id" {
   description = "El ID del Internet Gateway."
   value       = aws_internet_gateway.igw.id
 }
+
+output "backend_private_ip" {
+  value = aws_instance.backend.private_ip
+}
+
